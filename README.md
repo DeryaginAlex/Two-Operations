@@ -1,6 +1,6 @@
 Two Operations
 Two integer operations are defined as:
-ADD_ 7: Increment the integer by 1
+*ADD_ 7:* Increment the integer by 1
 MULTIPLY_Z Multiply the integer by 2
 
 Given an integer value k, determine the minimum number of operations it takes to get from 0 to k using the two operations specified above.
