@@ -9,7 +9,7 @@ namespace two_operations {
         [TestCase(1024, 10)]
         [TestCase(2, 1)]
         [TestCase(9, 4)]
-        public void Oreration_getMinOperations_defaultValue(long testValue, int expectedValue) {
+        public void Oreration_getMinOperations_defaultValue_Test(long testValue, int expectedValue) {
             Operations operations = new Operations();
 
             List<int> expected = new List<int> { expectedValue };
@@ -19,7 +19,7 @@ namespace two_operations {
         }
 
         [Test]
-        public void Oreration_getMinOperations_ArgumentNullException() {
+        public void Oreration_getMinOperations_ArgumentNullException_Test() {
             Operations operations = new Operations();
             bool result = false;
 
