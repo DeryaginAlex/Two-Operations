@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>two_operations</RootNamespace>
+    <RootNamespace>TwoOperations</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -17,11 +17,10 @@ namespace two_operations {
                 while(value!=1) {
                     if(value % 2 == 0) {
                         value = value/2;
-                        count++;
                     } else {
                         value--;
-                        count++;
                     }
+                    count++;
                 }
                 result.Add(count); 
             }
