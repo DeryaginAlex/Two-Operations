@@ -20,4 +20,5 @@ Complete the function *getMinOperations* in the editor below.
 
 #### Constraints
 *7 < n < 10*
+
 *0 <= kValues <= 10^16*
