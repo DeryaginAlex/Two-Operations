@@ -13,7 +13,7 @@ Starting from *0*, add *1*, then multiply by three times. It takes a minimum of 
 #### Function Description
 Complete the function *getMinOperations* in the editor below.
 
-*getMinOperations* has the following parameter(s): *kValues[n]:the given kValues*
+*getMinOperations* has the following parameter(s): *kValues[n]*:the given *kValues*
 
 #### Returns:
 *int[n];* answers to a list of queries in the given order 
