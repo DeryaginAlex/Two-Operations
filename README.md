@@ -1,5 +1,6 @@
 Two Operations
 Two integer operations are defined as:
+
 *ADD_ 7:* Increment the integer by 1
 *MULTIPLY_2*: Multiply the integer by 2
 
