@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace two_operations {
+namespace TwoOperations {
     class Program {
         static void Main(string[] args) {
-            Operations operations = new Operations();
+            OperationsСalculator calculator = new OperationsСalculator();
             List<long> kValues = new List<long> { 1024,10};
             List<int> result = new List<int> { };
-            result = operations.getMinOperations(kValues);
-
-            for(int i = 0 ; i < result.Count ; i++) {
-                Console.WriteLine(result[i]);
+            result = calculator.GetMinOperations(kValues);
+            foreach(var item in result) {
+                Console.WriteLine(item);
             }
-
         }
     }
 }
