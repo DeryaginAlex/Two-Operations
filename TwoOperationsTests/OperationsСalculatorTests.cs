@@ -2,10 +2,10 @@ using NUnit.Framework;
 using System.Collections.Generic;
 using TwoOperations;
 
-namespace two_operations {
+namespace TwoOperationsTests {
     [TestFixture]
     public class Operations—alculatorTests {
-       
+
         private Operations—alculator operations;
         [SetUp]
         public void SetUp() {
@@ -15,7 +15,7 @@ namespace two_operations {
         [TestCase(1024, 10)]
         [TestCase(2, 1)]
         [TestCase(9, 4)]
-        public void Oreration_getMinOperations_defaultValue_Test(long testValue, int expectedValue) {
+        public void GetMinOperations_defaultValue_Test(long testValue, int expectedValue) {
             List<int> expected = new List<int> { expectedValue };
             List<int> result = operations.GetMinOperations(new List<long> { testValue });
 
@@ -23,7 +23,7 @@ namespace two_operations {
         }
 
         [Test]
-        public void Oreration_getMinOperations_ArgumentNullException_Test() {
+        public void GetMinOperations_ArgumentNullException_Test() {
             bool result = false;
 
             try {
@@ -35,4 +35,4 @@ namespace two_operations {
             Assert.IsTrue(result);
         }
     }
-}        
+}     
